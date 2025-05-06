@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Desktop/PUC/EAD-MLOps/mlruns/0/c81458f75bd94cfdb75132a9b91ebc12/artifacts
+end_time: 1746498748992
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c81458f75bd94cfdb75132a9b91ebc12
+run_name: experiment_mlops_ead
+run_uuid: c81458f75bd94cfdb75132a9b91ebc12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746498743663
+status: 3
+tags: []
+user_id: ericb
