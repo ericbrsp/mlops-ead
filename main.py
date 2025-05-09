@@ -5,13 +5,11 @@ import numpy as np
 from pydantic import BaseModel
 from fastapi import FastAPI
 
-
 class FetalHealthData(BaseModel):
     accelerations: float
     fetal_movement: float
     uterine_contractions: float
     severe_decelerations: float
-
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -28,7 +26,6 @@ app = FastAPI(title="Fetal Health API",
                       "description": "Model prediction"
                   }
               ])
-
 
 def load_model():
     """
